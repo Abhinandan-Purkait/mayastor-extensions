@@ -208,7 +208,7 @@ mayastor:
 etcd:
   # etcd pod labels; okay to remove the openebs logging label if required
   podLabels:
-    app: etcd
+    app: etcd-app
     openebs.io/logging: "true"
   # number of replicas of etcd
   replicaCount: 3
